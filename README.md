@@ -31,7 +31,7 @@ Java + Netty + MQTT
 
 9.支持遗嘱消息
 
-10.支持QOS等级为：0、1、2
+10.支持QoS等级为：0、1、2
 
 11.支持MQTT 3.1.1版本和MQTT 5版本相互切换，并且相互兼容
 
@@ -65,7 +65,7 @@ Java + Netty + MQTT
 
 #### MqttRetrier
 
-​	MQTT重试器，用于重试QOS1及QOS2中失败或未完成的消息，可通过连接配置修改重试时间及间隔
+​	MQTT重试器，用于重试QoS1及QoS2中失败或未完成的消息，可通过连接配置修改重试时间及间隔
 
 #### MqttDelegateHandler
 
